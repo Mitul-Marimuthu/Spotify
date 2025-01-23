@@ -1,0 +1,19 @@
+RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson, RICK OWENS (feat. Ken Carson), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640}, 1
+St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar, CHROMAKOPIA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640}, 1
+NIRVANA - Katy Perry, 1432, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640}, 1
+In The Night - The Weeknd, Beauty Behind The Madness, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b', 'width': 640}, 1
+Out Of Town Girl - Justin Bieber, Believe (Deluxe Edition), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640}, 1
+The Party & The After Party - The Weeknd, House Of Balloons (Original), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640}, 1
+GIMME GIMME (feat. 21 Savage) - Katy Perry, 21 Savage, 1432, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640}, 1
+Cigarette Daydreams - Cage The Elephant, Melophobia, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb1cb900d28642e668d77b12', 'width': 640}, 1
+gloria (with sza) - Kendrick Lamar, SZA, GNX, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640}, 1
+Far - SZA, SOS, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640}, 1
+BMF - SZA, SOS Deluxe: LANA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640}, 1
+Stars Align (with Drake) - Majid Jordan, Drake, Wildest Dreams, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ecca1386fa4e6b7a947907ef', 'width': 640}, 2
+She - Tyler, The Creator, Frank Ocean, Goblin, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27328ae9a159d24cb0ab2552712', 'width': 640}, 1
+Ghungroo (From "War") - Vishal-Shekhar, Arijit Singh, Shilpa Rao, Kumaar, Ghungroo (From "War"), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1', 'width': 640}, 1
+Like Him (feat. Lola Young) - Tyler, The Creator, Lola Young, CHROMAKOPIA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640}, 1
+Stargirl Interlude - The Weeknd, Lana Del Rey, Starboy, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452', 'width': 640}, 1
+After The Storm (feat. Tyler, The Creator & Bootsy Collins) - Kali Uchis, Tyler, The Creator, Bootsy Collins, Isolation, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053', 'width': 640}, 1
+ROCKSTAR P - Baby Keem, DIE FOR MY BITCH, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1', 'width': 640}, 1
+Missed You - Bonus Track - The Weeknd, After Hours (Deluxe), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27380880b62143e819e901d8465', 'width': 640}, 1
