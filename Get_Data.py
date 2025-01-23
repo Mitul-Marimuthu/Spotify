@@ -4,11 +4,14 @@ import base64
 import threading
 from urllib.parse import urlencode, urlparse, parse_qs
 from http.server import HTTPServer, BaseHTTPRequestHandler
+from dotenv import load_dotenv
+import os
 
 # Spotify API credentials
-CLIENT_ID = '2cf26052dde241b88077957dc40f963b'
-CLIENT_SECRET = '761e102a778348988ecebe405c13a10e'
-REDIRECT_URI = 'http://localhost:8888/callback'
+load_dotenv('.env.local')
+CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
+CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
+REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
 
 #global variable to store the authorization code
 auth_code = None
@@ -121,14 +124,14 @@ def save_in_file(tracks):
 
         # list[f"{track['name']}, {", ".join(artist['name'] for artist in track['artists'])}"] =  (track['album']['name'], track['album']['images'][0], 0)
         # subset = (track['name'], ", ".join(artist['name'] for artist in track['artists']), track['album']['name'], track['album']['images'][0], 0)
-        if f"{track['name']} - {", ".join(artist['name'] for artist in track['artists'])}" in list:
-            list[f"{track['name']} - {", ".join(artist['name'] for artist in track['artists'])}"][2] += 1
+        if f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}" in list:
+            list[f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"][2] += 1
         else:
-            list[f"{track['name']} - {", ".join(artist['name'] for artist in track['artists'])}"] =  [track['album']['name'], track['album']['images'][0], 1]
+            list[f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"] =  [track['album']['name'], track['album']['images'][0], 1]
 
     with open('save_data.txt', 'w') as file:
         for item in list:
-            file.write(f"{item}, {", ".join(str(i) for i in list[item])}")
+            file.write(f"{item}, {', '.join(str(i) for i in list[item])}")
             file.write("\n")
 
 if __name__ == "__main__":
