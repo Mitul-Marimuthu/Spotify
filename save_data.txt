@@ -1,20 +1,23 @@
-Pyramids - Frank Ocean, channel ORANGE, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5', 'width': 640}, 1
-She Don't Like The Lights - Justin Bieber, Believe (Deluxe Edition), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640}, 1
-RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson, RICK OWENS (feat. Ken Carson), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640}, 1
-St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar, CHROMAKOPIA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640}, 1
-NIRVANA - Katy Perry, 1432, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640}, 1
-In The Night - The Weeknd, Beauty Behind The Madness, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b', 'width': 640}, 1
-Out Of Town Girl - Justin Bieber, Believe (Deluxe Edition), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640}, 1
-The Party & The After Party - The Weeknd, House Of Balloons (Original), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640}, 1
-GIMME GIMME (feat. 21 Savage) - Katy Perry, 21 Savage, 1432, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640}, 1
-Cigarette Daydreams - Cage The Elephant, Melophobia, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb1cb900d28642e668d77b12', 'width': 640}, 1
-gloria (with sza) - Kendrick Lamar, SZA, GNX, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640}, 1
-Far - SZA, SOS, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640}, 1
-BMF - SZA, SOS Deluxe: LANA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640}, 1
-Stars Align (with Drake) - Majid Jordan, Drake, Wildest Dreams, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ecca1386fa4e6b7a947907ef', 'width': 640}, 1
-She - Tyler, The Creator, Frank Ocean, Goblin, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27328ae9a159d24cb0ab2552712', 'width': 640}, 1
-Ghungroo (From "War") - Vishal-Shekhar, Arijit Singh, Shilpa Rao, Kumaar, Ghungroo (From "War"), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1', 'width': 640}, 1
-Like Him (feat. Lola Young) - Tyler, The Creator, Lola Young, CHROMAKOPIA, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640}, 1
-Stargirl Interlude - The Weeknd, Lana Del Rey, Starboy, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452', 'width': 640}, 1
-After The Storm (feat. Tyler, The Creator & Bootsy Collins) - Kali Uchis, Tyler, The Creator, Bootsy Collins, Isolation, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053', 'width': 640}, 1
-ROCKSTAR P - Baby Keem, DIE FOR MY BITCH, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1', 'width': 640}, 1
+Alone Again - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640}, + 28
+Too Late - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640}, + 6
+Nobody Gets Me - SZA + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640}, + 6
+One Time - Justin Bieber + My World , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7', 'width': 640}, + 6
+La La La - Naughty Boy, Sam Smith + La La La , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2739213b0453a98f037f2230f3e', 'width': 640}, + 6
+Hours In Silence - Drake, 21 Savage + Her Loss , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27302854a7060fccc1a66a4b5ad', 'width': 640}, + 6
+Angel Numbers / Ten Toes - Chris Brown + 11:11 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27326883cd45415d1c8b05adad1', 'width': 640}, + 6
+ss - Ken Carson + A Great Chaos (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2733b494c1b464d41ef641de442', 'width': 640}, + 6
+Digital Dash - Drake, Future + What A Time To Be Alive , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507', 'width': 640}, + 6
+Maria - Justin Bieber + Believe (Deluxe Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640}, + 6
+Awkward - SZA + Ctrl (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2731882add8fd275c04e322027d', 'width': 640}, + 6
+GRAVITY (FEAT. TYLER, THE CREATOR) - Brent Faiyaz, Dahi, Tyler, The Creator + WASTELAND , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27369f63a842ea91ca7c522593a', 'width': 640}, + 6
+Brand New - Ben Rector + Brand New , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27368fa87944a95ad7317c00cff', 'width': 640}, + 6
+She - Tyler, The Creator, Frank Ocean + Goblin , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27328ae9a159d24cb0ab2552712', 'width': 640}, + 6
+Diamond Boy (DTM) - SZA + SOS Deluxe: LANA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640}, + 4
+Mary's Song (Oh My My My) - Taylor Swift + Taylor Swift , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2732f8c0fd72a80a93f8c53b96c', 'width': 640}, + 4
+Timeless (with Playboi Carti) - The Weeknd, Playboi Carti + Timeless , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27394f662ef3b5677376d8a78d4', 'width': 640} + 2
+RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + RICK OWENS (feat. Ken Carson) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640} + 2
+The Party & The After Party - The Weeknd + House Of Balloons (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640}, + 2
+M a k e I t T o T h e M o r n i n g - PARTYNEXTDOOR, + PARTYNEXTDOOR 4 (P4), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27322ac75a1f50440962b7f70e6', 'width': 640}, + 1
+Missed You - Bonus Track - The Weeknd, + After Hours (Deluxe), {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27380880b62143e819e901d8465', 'width': 640}, + 1
+Alone Again - The Weeknd, + After Hours, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640}, + 1
+Promiscuous - Nelly Furtado, Timbaland, + Loose, {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2', 'width': 640}, + 1
