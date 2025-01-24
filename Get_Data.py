@@ -15,6 +15,7 @@ REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
 
 #global variable to store the authorization code
 auth_code = None
+#globabl variable to store the list of songs
 list = {}
 
 #HTTP server to hadnle the redirect and capture the auth code
