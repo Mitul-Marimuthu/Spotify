@@ -18,6 +18,8 @@ REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
 auth_code = None
 #globabl variable to store the list of songs
 data = {}
+artist_list = {}
+album_list = {}
 
 #HTTP server to hadnle the redirect and capture the auth code
 class AuthorizationHandler(BaseHTTPRequestHandler):
@@ -122,6 +124,9 @@ def save_tracks(tracks):
 #reads the current data from the file and loads it into the list dict
 def read_from_file():
     global data
+    global album_list
+    global artist_list
+    #file with song information and times played
     with open('frequency_list.txt', 'r') as file:
         line = file.readline()
         while line:
@@ -129,6 +134,7 @@ def read_from_file():
             data[params[0].strip()] = [params[1].strip(), int(params[2].strip()), []]
             line = file.readline()
 
+    #file with the times of when the song was played
     with open('time_list.txt', 'r') as file:
         line = file.readline()
         while line:
@@ -136,6 +142,24 @@ def read_from_file():
             data[params[0].strip()][2] = ast.literal_eval(params[1].strip())
             # print(data[params[0].strip()][2])
             line = file.readline()
+
+    #file with the artists and total number of songs (iterations included) listened to by the artist
+    with open('artist_list.txt', 'r') as file:
+        line = file.readline()
+        while line:
+            params = line.split('+')
+            artist_list[params[0].strip()] = int(params[1].strip())
+            line = file.readline()
+
+    #file with the albums and how many songs (iterations included) listened to in the album
+    with open('album_list.txt', 'r') as file:
+        line = file.readline()
+        while line:
+            params = line.split('+')
+            album_list[params[0].strip()] = [params[1].strip(), int(params[2].strip())]
+            line = file.readline()
+
+
     # print('IN LIST: ')
     # for key in list:
     #     print(f"{key} + {list[key]}")
@@ -146,6 +170,8 @@ def read_from_file():
 # check if 'played_at' is in the list
 def save_new_data(tracks):
     global data
+    global album_list
+    global artist_list
     for item in tracks['items']:
         track = item['track']
 
@@ -160,18 +186,49 @@ def save_new_data(tracks):
             if not item['played_at'] in data[key][2]:
                 data[key][1] += 1
                 data[key][2].append(item['played_at'])
+                update_artist_counter(track)
+                update_album_counter(track)
         else:
             data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
+            update_artist_counter(track)
+            update_album_counter(track)
+
+
+#updates the artist counter
+def update_artist_counter(track):
+    global artist_list
+    for artist in track['artists']:
+        name = artist['name']
+        if name in artist_list:
+            artist_list[name] += 1
+        else:
+            artist_list[name] = 1
+
+#updates the album counter
+def update_album_counter(track):
+    global album_list
+    name = track['album']['name']
+    artists = ", ".join(artist['name'] for artist in track['album']['artists'])
+    if track['album']['name'] in album_list:
+        album_list[name][1] += 1
+    else:
+        album_list[name] = [artists, 1]
 
 #sorts the list in descending order by number of times played
-def sort_by_freqeuency():
+def sorts():
     global data
+    global album_list
+    global artist_list
     data = dict(sorted(data.items(), key=lambda item: item[1][1], reverse=True))
+    album_list = dict(sorted(album_list.items(), key=lambda item: item[1][1], reverse=True))
+    artist_list = dict(sorted(artist_list.items(), key=lambda item: item[1], reverse=True))
 
 # writes the content of the list into the file in a way that makes it easy to extract
 #TODO: include the 'played_at list after'
 def write_to_file():
     global data
+    global artist_list
+    global album_list
     with open('frequency_list.txt', 'w') as file:
         for item in data:
             #adds a + sign to discern between the three components of the input
@@ -181,9 +238,24 @@ def write_to_file():
             file.write(f"{item} + {data[item][0]} + {data[item][1]}")
             file.write("\n")
     
+    # writes to the file that stores the times that all the songs were played
     with open('time_list.txt', 'w') as file:
         for item in data:
             file.write(f"{item} + {data[item][2]}\n")
+
+    # writes to the file that stores the number of albums listened to and the number of songs
+    # listened to from the album
+    print(album_list)
+    with open('album_list.txt', 'w') as file:
+        for item in album_list:
+            file.write(f"{item} + {album_list[item][0]} + {album_list[item][1]}\n")
+
+    #writes to the file that stores the number of songs listened to by an artist
+    print('a')
+    print(artist_list)
+    with open('artist_list.txt', 'w') as file:
+        for item in artist_list:
+            file.write(f"{item} + {artist_list[item]}\n") 
 
 if __name__ == "__main__":
     read_from_file()
@@ -194,7 +266,7 @@ if __name__ == "__main__":
             tracks = get_recently_played_tracks(access_token)
             if tracks:
                 save_new_data(tracks)
-                sort_by_freqeuency()
+                sorts()
                 write_to_file()
                 
     #             print(f"\n\n{len(tracks['items'])}")
