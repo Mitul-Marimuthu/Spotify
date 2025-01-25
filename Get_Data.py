@@ -214,7 +214,7 @@ def update_album_counter(track):
     else:
         album_list[name] = [artists, 1]
 
-#sorts the list in descending order by number of times played
+#sorts all of the dictionaries accordingly
 def sorts():
     global data
     global album_list
