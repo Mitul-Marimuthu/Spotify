@@ -6,6 +6,7 @@ from urllib.parse import urlencode, urlparse, parse_qs
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from dotenv import load_dotenv
 import os
+import ast
 
 # Spotify API credentials
 load_dotenv('.env.local')
@@ -16,7 +17,7 @@ REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
 #global variable to store the authorization code
 auth_code = None
 #globabl variable to store the list of songs
-list = {}
+data = {}
 
 #HTTP server to hadnle the redirect and capture the auth code
 class AuthorizationHandler(BaseHTTPRequestHandler):
@@ -120,12 +121,20 @@ def save_tracks(tracks):
         json.dump(tracks,json_file, indent=4)
 #reads the current data from the file and loads it into the list dict
 def read_from_file():
-    global list
-    with open('save_data.txt', 'r') as file:
+    global data
+    with open('frequency_list.txt', 'r') as file:
         line = file.readline()
         while line:
             params = line.split('+')
-            list[params[0].strip()] = [params[1].strip(), int(params[2].strip())]
+            data[params[0].strip()] = [params[1].strip(), int(params[2].strip()), []]
+            line = file.readline()
+
+    with open('time_list.txt', 'r') as file:
+        line = file.readline()
+        while line:
+            params = line.split('+')
+            data[params[0].strip()][2] = ast.literal_eval(params[1].strip())
+            # print(data[params[0].strip()][2])
             line = file.readline()
     # print('IN LIST: ')
     # for key in list:
@@ -133,8 +142,10 @@ def read_from_file():
 
 
 #saves the relevant data into the new file
+#TODO: include list of all the 'played_ats'
+# check if 'played_at' is in the list
 def save_new_data(tracks):
-    global list
+    global data
     for item in tracks['items']:
         track = item['track']
 
@@ -143,27 +154,36 @@ def save_new_data(tracks):
 
         #if the "song - artist" key exists in the lsit, update its listen counter
         #otherwise add the new song into the list
-        if f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}" in list:
-            list[f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"][1] += 1
+        key = f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"
+        if key in data:
+            #print(list[key])
+            if not item['played_at'] in data[key][2]:
+                data[key][1] += 1
+                data[key][2].append(item['played_at'])
         else:
-            list[f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1]
+            data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
 
 #sorts the list in descending order by number of times played
 def sort_by_freqeuency():
-    global list
-    list = dict(sorted(list.items(), key=lambda item: item[1][1], reverse=True))
+    global data
+    data = dict(sorted(data.items(), key=lambda item: item[1][1], reverse=True))
 
 # writes the content of the list into the file in a way that makes it easy to extract
+#TODO: include the 'played_at list after'
 def write_to_file():
-    global list
-    with open('save_data.txt', 'w') as file:
-        for item in list:
+    global data
+    with open('frequency_list.txt', 'w') as file:
+        for item in data:
             #adds a + sign to discern between the three components of the input
             # 1. "(song name) - (artist)"
             # 2. "(album name), {image information}"
             # 3. frequency counter
-            file.write(f"{item} + {list[item][0]} + {list[item][1]}")
+            file.write(f"{item} + {data[item][0]} + {data[item][1]}")
             file.write("\n")
+    
+    with open('time_list.txt', 'w') as file:
+        for item in data:
+            file.write(f"{item} + {data[item][2]}\n")
 
 if __name__ == "__main__":
     read_from_file()

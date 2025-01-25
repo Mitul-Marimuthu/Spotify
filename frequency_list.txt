@@ -1,0 +1,13 @@
+4X4 - Travis Scott + 4X4 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27374bdfbcc73b08c535b4d6564', 'width': 640} + 6
+Dancing In The Flames - The Weeknd + Dancing In The Flames , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f0e9b93cadbeb4d0227a59eb', 'width': 640} + 2
+luther (with sza) - Kendrick Lamar, SZA + GNX , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640} + 2
+Alone Again - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 2
+Cigarette Daydreams - Cage The Elephant + Melophobia , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb1cb900d28642e668d77b12', 'width': 640} + 2
+Far - SZA + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 1
+Ghungroo (From "War") - Vishal-Shekhar, Arijit Singh, Shilpa Rao, Kumaar + Ghungroo (From "War") , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1', 'width': 640} + 1
+‘87 Stingray - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 1
+GRAVITY (FEAT. TYLER, THE CREATOR) - Brent Faiyaz, Dahi, Tyler, The Creator + WASTELAND , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27369f63a842ea91ca7c522593a', 'width': 640} + 1
+Pyramids - Frank Ocean + channel ORANGE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5', 'width': 640} + 1
+Timeless (with Playboi Carti) - The Weeknd, Playboi Carti + Timeless , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27394f662ef3b5677376d8a78d4', 'width': 640} + 1
+Mary's Song (Oh My My My) - Taylor Swift + Taylor Swift , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2732f8c0fd72a80a93f8c53b96c', 'width': 640} + 1
+RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + RICK OWENS (feat. Ken Carson) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640} + 1
