@@ -127,36 +127,53 @@ def get_recently_played_tracks_normal(access_token):
         else:
             print("Failed to get recently played tracks:", response.json())
             return None
-    
+
+#fetches all the tracks until the last played one (saved) using pagination logic
 def get_recently_played_tracks_special(access_token):
+    global last_played
+   # print('a')
     url = 'https://api.spotify.com/v1/me/player/recently-played'
     headers = {
         'Authorization': f'Bearer {access_token}'
     }
-    after_timestamp = None
-    done = False
-    while not done:
+    cur = list(last_played.items())
+    current_timestamp = cur[0][1]
+    # int(
+    #     datetime.datetime.strptime(list(last_played.items())[0][1], "%Y-%m-%dT%H:%M:%S.%fZ").timestamp() * 1000
+    # )
+    after_timestamp = current_timestamp
+    last_song = cur[0][0]
+    #done = False
+    while True:
+        #print('b')
         params = {
-            "limit": 3
+            "limit": 50
         }
-        if after_timestamp:
-            params["after"] = after_timestamp
+        params["after"] = after_timestamp
         
         response = requests.get(url, headers=headers, params=params)
-
+        #print('response acquired')
         if response.status_code != 200:
             print(f"ERROR: {response.status_code}, {response.json()}")
             break
 
         data = response.json()
         items = data.get("items", [])
-        if not items: 
+        if not items:
+
+            #print('no items?') 
             break
-        save_new_data(response.json(), done=done)
-        after_timestamp = items[-1]['played_at']
-        after_timestamp = int(
-            datetime.datetime.strptime(after_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ").timestamp() * 1000
-        )
+        save_new_data(response.json())
+        #print(done)
+        after_timestamp = items[0]['played_at']
+        last_song = items[0]['track']['name']
+        # after_timestamp = 
+        # int(
+        #     datetime.datetime.strptime(after_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ").timestamp() * 1000
+        # )
+        #print(after_timestamp)
+    last_played.clear()
+    last_played[last_song] = after_timestamp
 
 def save_tracks(tracks):
     with open('recently_played_tracks.json', 'w') as json_file:
@@ -218,17 +235,17 @@ def read_from_file():
 #TODO: include list of all the 'played_ats'
 # check if 'played_at' is in the list
 # makes note of the most recently played song and its timestamp for later data collection
-def save_new_data(tracks, done=False):
+def save_new_data(tracks):
     global data
     global album_list
     global artist_list
     global last_played
-    print(len(last_played))
+    #print(len(last_played))
     if len(last_played) == 0:
         last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
     for item in tracks['items']:
         track = item['track']
-
+        #print(track)    
         # list[f"{track['name']}, {", ".join(artist['name'] for artist in track['artists'])}"] =  (track['album']['name'], track['album']['images'][0], 0)
         # subset = (track['name'], ", ".join(artist['name'] for artist in track['artists']), track['album']['name'], track['album']['images'][0], 0)
 
@@ -243,12 +260,13 @@ def save_new_data(tracks, done=False):
                 update_artist_counter(track)
                 update_album_counter(track)
             else:
-                done = True
+                #done = True
                 break
         else:
             data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
             update_artist_counter(track)
             update_album_counter(track)
+    print('c')
 
 
 #updates the artist counter
