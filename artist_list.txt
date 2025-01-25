@@ -1,9 +1,14 @@
-SZA + 5
-The Weeknd + 4
-Kendrick Lamar + 3
-Tyler, The Creator + 2
-Travis Scott + 2
+SZA + 13
+The Weeknd + 9
+Kendrick Lamar + 7
+Tyler, The Creator + 7
+Tory Lanez + 4
+Travis Scott + 4
+Frank Ocean + 3
+OneRepublic + 3
 Cage The Elephant + 2
+Brent Faiyaz + 2
+Dahi + 2
 Kali Uchis + 1
 Don Toliver + 1
 TisaKorean + 1
@@ -15,6 +20,19 @@ Vishal-Shekhar + 1
 Arijit Singh + 1
 Shilpa Rao + 1
 Kumaar + 1
-Tory Lanez + 1
-Brent Faiyaz + 1
-Dahi + 1
+Chris Brown + 1
+Naughty Boy + 1
+Sam Smith + 1
+Justin Bieber + 1
+Majid Jordan + 1
+Drake + 1
+Playboi Carti + 1
+Baby Keem + 1
+Trippie Redd + 1
+Yoko Gold + 1
+Katy Perry + 1
+¥$ + 1
+Kanye West + 1
+Ty Dolla $ign + 1
+Daniel Caesar + 1
+PARTYNEXTDOOR + 1
