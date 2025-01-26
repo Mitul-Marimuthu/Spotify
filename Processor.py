@@ -6,8 +6,9 @@ from urllib.parse import urlencode, urlparse, parse_qs
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from dotenv import load_dotenv
 import os
-import ast
-import datetime
+#import ast
+from File_Handlers import File_Handlers
+
 
 # Spotify API credentials
 load_dotenv('.env.local')
@@ -73,7 +74,7 @@ def get_authorization_code():
         'scope': scopes,
     }
     url = f"{auth_url}?{urlencode(params)}"
-    print(f"Please log in here: {url}")
+    #print(f"Please log in here: {url}")
 
     #start the loal server in a separate thread
     threading.Thread(target=start_http_server, daemon=True).start()
@@ -111,125 +112,29 @@ def get_access_token(auth_code):
 # fetches all the tracks up until the last recently played track
 def get_recently_played_tracks_normal(access_token):
     global last_played
-    if len(last_played) > 0:
-        get_recently_played_tracks_special(access_token=access_token)
-    else:
-        url = 'https://api.spotify.com/v1/me/player/recently-played'
-        headers = {
-            'Authorization': f'Bearer {access_token}'
-        }
-        params = {
-            "limit": 50
-        }
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            save_new_data(response.json())
-        else:
-            print("Failed to get recently played tracks:", response.json())
-            return None
-
-#fetches all the tracks until the last played one (saved) using pagination logic
-def get_recently_played_tracks_special(access_token):
-    global last_played
-   # print('a')
+    # print(len(last_played))
+    # if len(last_played) > 0:
+    #     get_recently_played_tracks_special(access_token=access_token)
     url = 'https://api.spotify.com/v1/me/player/recently-played'
     headers = {
         'Authorization': f'Bearer {access_token}'
     }
-    cur = list(last_played.items())
-    current_timestamp = cur[0][1]
-    # int(
-    #     datetime.datetime.strptime(list(last_played.items())[0][1], "%Y-%m-%dT%H:%M:%S.%fZ").timestamp() * 1000
-    # )
-    after_timestamp = current_timestamp
-    last_song = cur[0][0]
-    #done = False
-    while True:
-        #print('b')
-        params = {
-            "limit": 50
-        }
-        params["after"] = after_timestamp
-        
-        response = requests.get(url, headers=headers, params=params)
-        #print('response acquired')
-        if response.status_code != 200:
-            print(f"ERROR: {response.status_code}, {response.json()}")
-            break
-
-        data = response.json()
-        items = data.get("items", [])
-        if not items:
-
-            #print('no items?') 
-            break
-        save_new_data(response.json())
-        #print(done)
-        after_timestamp = items[0]['played_at']
-        last_song = items[0]['track']['name']
-        # after_timestamp = 
-        # int(
-        #     datetime.datetime.strptime(after_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ").timestamp() * 1000
-        # )
-        #print(after_timestamp)
+    params = {
+        "limit": 50
+    }
+    response = requests.get(url, headers=headers, params=params)
+    tracks = response.json()
+    if response.status_code == 200:
+        save_new_data(tracks)
+    else:
+        #print("Failed to get recently played tracks:", response.json())
+        return None
     last_played.clear()
-    last_played[last_song] = after_timestamp
+    last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
 
 def save_tracks(tracks):
-    with open('recently_played_tracks.json', 'w') as json_file:
+    with open('/Users/mitul/Desktop/spotify/test_files/recently_played_tracks.json', 'w') as json_file:
         json.dump(tracks,json_file, indent=4)
-
-#reads the current data from the file and loads it into the list dict
-def read_from_file():
-    global data
-    global album_list
-    global artist_list
-    global last_played
-    #file with song information and times played
-    with open('frequency_list.txt', 'r') as file:
-        line = file.readline()
-        while line:
-            params = line.split('+')
-            data[params[0].strip()] = [params[1].strip(), int(params[2].strip()), []]
-            line = file.readline()
-
-    #file with the times of when the song was played
-    with open('time_list.txt', 'r') as file:
-        line = file.readline()
-        while line:
-            if '+' not in line: 
-                line = file.readline()
-                continue
-            params = line.split('+')
-            if params[0].strip() == 'first':
-                last_played = {}
-                last_played[params[1].strip()] = params[2].strip()
-            else:
-                data[params[0].strip()][2] = ast.literal_eval(params[1].strip())
-            # print(data[params[0].strip()][2])
-            line = file.readline()
-
-    #file with the artists and total number of songs (iterations included) listened to by the artist
-    with open('artist_list.txt', 'r') as file:
-        line = file.readline()
-        while line:
-            params = line.split('+')
-            artist_list[params[0].strip()] = int(params[1].strip())
-            line = file.readline()
-
-    #file with the albums and how many songs (iterations included) listened to in the album
-    with open('album_list.txt', 'r') as file:
-        line = file.readline()
-        while line:
-            params = line.split('+')
-            album_list[params[0].strip()] = [params[1].strip(), int(params[2].strip())]
-            line = file.readline()
-
-
-    # print('IN LIST: ')
-    # for key in list:
-    #     print(f"{key} + {list[key]}")
-
 
 #saves the relevant data into the new file
 #TODO: include list of all the 'played_ats'
@@ -237,8 +142,6 @@ def read_from_file():
 # makes note of the most recently played song and its timestamp for later data collection
 def save_new_data(tracks):
     global data
-    global album_list
-    global artist_list
     global last_played
     #print(len(last_played))
     if len(last_played) == 0:
@@ -254,19 +157,22 @@ def save_new_data(tracks):
         key = f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"
         if key in data:
             #print(list[key])
-            if not item['played_at'] in data[key][2]:
+            if item['played_at'] == list(last_played.items())[0][1]:
+                #done = True
+                break
+            else:
                 data[key][1] += 1
                 data[key][2].append(item['played_at'])
                 update_artist_counter(track)
                 update_album_counter(track)
-            else:
-                #done = True
-                break
+            # else:
+            #     done = True
+            #     break
         else:
             data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
             update_artist_counter(track)
             update_album_counter(track)
-    print('c')
+    #print('c')
 
 
 #updates the artist counter
@@ -298,46 +204,24 @@ def sorts():
     album_list = dict(sorted(album_list.items(), key=lambda item: item[1][1], reverse=True))
     artist_list = dict(sorted(artist_list.items(), key=lambda item: item[1], reverse=True))
 
-# writes the content of the list into the file in a way that makes it easy to extract
-#TODO: include the 'played_at list after'
-def write_to_file():
+def read_from_files():
     global data
     global artist_list
     global album_list
     global last_played
-    with open('frequency_list.txt', 'w') as file:
-        for item in data:
-            #adds a + sign to discern between the three components of the input
-            # 1. "(song name) - (artist)"
-            # 2. "(album name), {image information}"
-            # 3. frequency counter
-            file.write(f"{item} + {data[item][0]} + {data[item][1]}")
-            file.write("\n")
-    
-    # writes to the file that stores the times that all the songs were played
-    with open('time_list.txt', 'w') as file:
-        if len(last_played) > 0:
-            for item in last_played:
-                file.write(f"first + {item} + {last_played[item]}\n\n")
-        for item in data:
-            file.write(f"{item} + {data[item][2]}\n")
+    File_Handlers.read_from_file(data, album_list, artist_list, last_played)
 
-    # writes to the file that stores the number of albums listened to and the number of songs
-    # listened to from the album
-    #print(album_list)
-    with open('album_list.txt', 'w') as file:
-        for item in album_list:
-            file.write(f"{item} + {album_list[item][0]} + {album_list[item][1]}\n")
+    #print(c_last_played)
 
-    #writes to the file that stores the number of songs listened to by an artist
-    #print('a')
-    #print(artist_list)
-    with open('artist_list.txt', 'w') as file:
-        for item in artist_list:
-            file.write(f"{item} + {artist_list[item]}\n") 
+def write_to_files():
+    global data
+    global artist_list
+    global album_list
+    global last_played
+    File_Handlers.write_to_file(data, album_list, artist_list, last_played)
 
 if __name__ == "__main__":
-    read_from_file()
+    read_from_files()
     auth_code = get_authorization_code()
     if auth_code:
         access_token = get_access_token(auth_code)
@@ -346,7 +230,7 @@ if __name__ == "__main__":
             # if tracks:
             #     save_new_data(tracks)
             sorts()
-            write_to_file()
+            write_to_files()
                 
     #             print(f"\n\n{len(tracks['items'])}")
                 # for item in tracks['items']:
