@@ -42,7 +42,7 @@ class File_Handlers:
                 file.write(f"{item} + {artist_list[item]}\n") 
 
     @staticmethod
-    def read_from_file(data, album_list, artist_list, last_played):
+    def read_from_file(data, album_list, artist_list, last_played, num_songs):
         # global data
         # global album_list
         # global artist_list
@@ -54,8 +54,9 @@ class File_Handlers:
             while line:
                 params = line.split('+')
                 data[params[0].strip()] = [params[1].strip(), int(params[2].strip()), []]
+                num_songs[0] += int(params[2].strip())
                 line = file.readline()
-
+        #print (num_songs)
         #file with the times of when the song was played
         with open('/Users/mitul/Desktop/spotify/data_files/time_list.txt', 'r') as file:
             line = file.readline()

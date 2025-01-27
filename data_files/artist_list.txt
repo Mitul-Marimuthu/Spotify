@@ -1,41 +1,59 @@
-SZA + 11
-The Weeknd + 9
-Tyler, The Creator + 5
-Tory Lanez + 5
-Travis Scott + 4
-Justin Bieber + 4
-Frank Ocean + 4
-Katy Perry + 4
-Kendrick Lamar + 3
-Baby Keem + 3
-Ken Carson + 2
-Don Toliver + 2
+SZA + 22
+The Weeknd + 20
+Tyler, The Creator + 13
+Tory Lanez + 10
+Justin Bieber + 9
+Katy Perry + 9
+Kendrick Lamar + 8
+Frank Ocean + 8
+Baby Keem + 6
+Travis Scott + 5
+Don Toliver + 5
+Drake + 5
+Ken Carson + 4
+Taylor Swift + 4
+Ben Rector + 3
+Childish Gambino + 3
+PARTYNEXTDOOR + 3
+21 Savage + 3
 Playboi Carti + 2
-Drake + 2
-Taylor Swift + 2
-Ben Rector + 2
 Tommy Richman + 2
 Trevor Spitta + 2
 Zachary Moon + 2
-PARTYNEXTDOOR + 2
 Nelly Furtado + 2
 Timbaland + 2
-Lana Del Rey + 1
-Lola Young + 1
-Trippie Redd + 1
-Yoko Gold + 1
-Majid Jordan + 1
-TisaKorean + 1
-Childish Gambino + 1
-Daniel Caesar + 1
+Lana Del Rey + 2
+Lola Young + 2
+Trippie Redd + 2
+Yoko Gold + 2
+Chris Brown + 2
+TisaKorean + 2
+Naughty Boy + 2
+Sam Smith + 2
+Brent Faiyaz + 2
+Dahi + 2
+Kali Uchis + 2
+OneRepublic + 2
+Majid Jordan + 2
+Ufo361 + 2
+lucidbeatz + 2
+Daniel Caesar + 2
 Future + 1
-OneRepublic + 1
-Ufo361 + 1
-lucidbeatz + 1
 Metro Boomin + 1
 Young Thug + 1
-Naughty Boy + 1
-Sam Smith + 1
-Brent Faiyaz + 1
-Dahi + 1
-Chris Brown + 1
+One Direction + 1
+Bastille + 1
+Maroon 5 + 1
+Christina Aguilera + 1
+Calvin Harris + 1
+Disciples + 1
+Nicki Minaj + 1
+Bootsy Collins + 1
+Tate McRae + 1
+Cage The Elephant + 1
+Lady Gaga + 1
+Bruno Mars + 1
+Vishal-Shekhar + 1
+Arijit Singh + 1
+Shilpa Rao + 1
+Kumaar + 1

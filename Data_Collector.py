@@ -23,6 +23,7 @@ data = {}
 artist_list = {}
 album_list = {}
 last_played = {}
+num_songs = [0]
 
 #HTTP server to hadnle the redirect and capture the auth code
 class AuthorizationHandler(BaseHTTPRequestHandler):
@@ -209,7 +210,9 @@ def read_from_files():
     global artist_list
     global album_list
     global last_played
-    File_Handlers.read_from_file(data, album_list, artist_list, last_played)
+    global num_songs
+    File_Handlers.read_from_file(data, album_list, artist_list, last_played, num_songs)
+    #print(num_songs)
 
     #print(c_last_played)
 
@@ -220,7 +223,7 @@ def write_to_files():
     global last_played
     File_Handlers.write_to_file(data, album_list, artist_list, last_played)
 
-if __name__ == "__main__":
+def collect_data():
     read_from_files()
     auth_code = get_authorization_code()
     if auth_code:
@@ -231,6 +234,9 @@ if __name__ == "__main__":
             #     save_new_data(tracks)
             sorts()
             write_to_files()
+
+if __name__ == "__main__":
+    collect_data()
                 
     #             print(f"\n\n{len(tracks['items'])}")
                 # for item in tracks['items']:
