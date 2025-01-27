@@ -1,4 +1,4 @@
-first + ALL THE LOVE + 2025-01-27T08:47:19.945Z
+first + Self Control + 2025-01-27T08:53:59.821Z
 
 Missed You - Bonus Track - The Weeknd + ['2025-01-26T02:17:10.304Z', '2025-01-26T22:26:55.978Z', '2025-01-26T19:47:48.553Z']
 Brand New - Ben Rector + ['2025-01-25T22:56:19.858Z', '2025-01-25T22:25:58.641Z', '2025-01-27T04:15:03.487Z']
@@ -14,8 +14,8 @@ No Pole - Don Toliver + ['2025-01-26T00:38:21.001Z', '2025-01-26T05:12:08.653Z',
 ‘87 Stingray - Tory Lanez + ['2025-01-26T01:44:34.556Z', '2025-01-26T05:30:46.591Z', '2025-01-27T08:26:52.277Z']
 Far - SZA + ['2025-01-26T02:41:51.544Z', '2025-01-26T02:41:51.544Z', '2025-01-27T08:36:37.784Z']
 ALL THE LOVE - Katy Perry + ['2025-01-26T02:52:12.543Z', '2025-01-26T02:52:12.543Z', '2025-01-27T08:47:19.945Z']
+TENNESSEE - Tommy Richman, Trevor Spitta, Zachary Moon + ['2025-01-26T03:01:25.219Z', '2025-01-26T03:01:25.219Z', '2025-01-27T08:49:51.991Z']
 4X4 - Travis Scott + ['2025-01-25T22:27:38.636Z', '2025-01-25T22:24:30.341Z']
-TENNESSEE - Tommy Richman, Trevor Spitta, Zachary Moon + ['2025-01-26T03:01:25.219Z', '2025-01-26T03:01:25.219Z']
 Promiscuous - Nelly Furtado, Timbaland + ['2025-01-26T02:48:58.543Z', '2025-01-26T02:48:58.543Z']
 Too Late - The Weeknd + ['2025-01-26T05:09:03.161Z', '2025-01-26T19:38:30.877Z']
 NIRVANA - Katy Perry + ['2025-01-26T02:28:43.901Z', '2025-01-27T03:33:33.656Z']
@@ -52,6 +52,7 @@ Stars Align (with Drake) - Majid Jordan, Drake + ['2025-01-26T00:21:07.188Z', '2
 RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + ['2025-01-25T23:29:47.362Z', '2025-01-27T08:33:38.826Z']
 Guilty as Sin? - Taylor Swift + ['2025-01-25T23:27:38.817Z', '2025-01-27T08:40:50.431Z']
 St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar + ['2025-01-26T00:00:26.620Z', '2025-01-27T08:44:05.745Z']
+Self Control - Frank Ocean + ['2025-01-25T23:04:03.741Z', '2025-01-27T08:53:59.821Z']
 Open Arms (feat. Travis Scott) - SZA, Travis Scott + ['2025-01-26T02:32:42.002Z']
 Out Of Town Girl - Justin Bieber + ['2025-01-26T02:10:01.662Z']
 Hardest To Love - The Weeknd + ['2025-01-26T01:42:15.072Z']
@@ -60,7 +61,6 @@ scars - Baby Keem + ['2025-01-25T23:57:11.216Z']
 Digital Dash - Drake, Future + ['2025-01-25T23:52:47.030Z']
 Timeless (with Playboi Carti) - The Weeknd, Playboi Carti + ['2025-01-25T23:23:26.297Z']
 Trance (with Travis Scott & Young Thug) - Metro Boomin, Travis Scott, Young Thug + ['2025-01-25T23:19:11.765Z']
-Self Control - Frank Ocean + ['2025-01-25T23:04:03.741Z']
 Live While We're Young - One Direction + ['2025-01-26T04:42:10.245Z']
 Pompeii - Bastille + ['2025-01-26T04:38:02.505Z']
 Moves Like Jagger - Studio Recording From "The Voice" Performance - Maroon 5, Christina Aguilera + ['2025-01-26T04:34:30.627Z']

@@ -20,9 +20,9 @@ def pagination_artist_graph():
     #height = 
     # Create a subplot with a specific layout (2 rows, 1 column in this case)
     fig, axs = plt.subplots(int(num_pages/2), 2, figsize=(10, 7))  # 2 rows, 1 column (adjust figsize as needed)
-    counter = 1
+    counter = 0
     for page in range(int(num_pages/2)):
-        start_index = page*(int(artists_per_page))
+        start_index = counter*(int(artists_per_page))
         end_index = start_index + (int(artists_per_page))
         page_artists = artists[start_index:end_index]
         page_values = values[start_index:end_index]
@@ -35,23 +35,24 @@ def pagination_artist_graph():
 
         axis[0].set_xlabel('Number of Songs Listened To')
         axis[0].set_ylabel('Artists')
-        axis[0].set_title(f'Bar Graph (Page {counter})')
+        axis[0].set_title(f'Top Artists')
         axis[0].tick_params(axis='y', labelsize=5)
         axis[0].set_xlim(0, max_value)
 
         #page += 1
-        start_index2 = (page)*(int(artists_per_page))
-        end_index2 = start_index + (int(artists_per_page))
+        counter += 1
+        start_index2 = (counter)*(int(artists_per_page))
+        end_index2 = start_index2 + (int(artists_per_page))
         page_artists = artists[start_index2:end_index2]
         page_values = values[start_index2:end_index2]
         page_artists.reverse()
         page_values.reverse()
-        counter += 1
+        
         #ax = axs[page][1] if num_pages > 1 else axs[0][0]
         axis[1].barh(page_artists, page_values, color=colors)
         axis[1].set_xlabel('Number of Songs Listened To')
         axis[1].set_ylabel('Artists')
-        axis[1].set_title(f'Bar Graph (Page {counter})')
+        axis[1].set_title(f'Top Artists')
         axis[1].tick_params(axis='y', labelsize=5)
         axis[1].set_xlim(0, max_value)
         counter += 1
@@ -67,6 +68,7 @@ def pagination_artist_graph():
 
         # plt.show()
 
+    #plt.title('Top Artists')
     plt.tight_layout()
     plt.show()
 

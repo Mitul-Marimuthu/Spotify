@@ -12,8 +12,8 @@ No Pole - Don Toliver + Love Sick (Deluxe) , {'height': 640, 'url': 'https://i.s
 ‘87 Stingray - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 3
 Far - SZA + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 3
 ALL THE LOVE - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 3
+TENNESSEE - Tommy Richman, Trevor Spitta, Zachary Moon + COYOTE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273cd721da3f9b44382eae07d72', 'width': 640} + 3
 4X4 - Travis Scott + 4X4 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27374bdfbcc73b08c535b4d6564', 'width': 640} + 2
-TENNESSEE - Tommy Richman, Trevor Spitta, Zachary Moon + COYOTE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273cd721da3f9b44382eae07d72', 'width': 640} + 2
 Promiscuous - Nelly Furtado, Timbaland + Loose , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2', 'width': 640} + 2
 Too Late - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 2
 NIRVANA - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 2
@@ -50,6 +50,7 @@ Stars Align (with Drake) - Majid Jordan, Drake + Wildest Dreams , {'height': 640
 RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + RICK OWENS (feat. Ken Carson) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640} + 2
 Guilty as Sin? - Taylor Swift + THE TORTURED POETS DEPARTMENT , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33', 'width': 640} + 2
 St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar + CHROMAKOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640} + 2
+Self Control - Frank Ocean + Blonde , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526', 'width': 640} + 2
 Open Arms (feat. Travis Scott) - SZA, Travis Scott + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 1
 Out Of Town Girl - Justin Bieber + Believe (Deluxe Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640} + 1
 Hardest To Love - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 1
@@ -58,7 +59,6 @@ scars - Baby Keem + The Melodic Blue , {'height': 640, 'url': 'https://i.scdn.co
 Digital Dash - Drake, Future + What A Time To Be Alive , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507', 'width': 640} + 1
 Timeless (with Playboi Carti) - The Weeknd, Playboi Carti + Timeless , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27394f662ef3b5677376d8a78d4', 'width': 640} + 1
 Trance (with Travis Scott & Young Thug) - Metro Boomin, Travis Scott, Young Thug + HEROES & VILLAINS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c4fee55d7b51479627c31f89', 'width': 640} + 1
-Self Control - Frank Ocean + Blonde , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526', 'width': 640} + 1
 Live While We're Young - One Direction + Take Me Home (Expanded Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734e31e0d38b89b8fb239d4fbf', 'width': 640} + 1
 Pompeii - Bastille + Bad Blood , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273258225089decfb3d5c3718d3', 'width': 640} + 1
 Moves Like Jagger - Studio Recording From "The Voice" Performance - Maroon 5, Christina Aguilera + Hands All Over , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ce70cb2d7063cf869f9f1239', 'width': 640} + 1
