@@ -1,46 +1,60 @@
-SZA + 22
-The Weeknd + 20
-Tyler, The Creator + 13
-Tory Lanez + 10
-Justin Bieber + 9
-Katy Perry + 9
-Frank Ocean + 9
-Kendrick Lamar + 8
-Baby Keem + 6
-Travis Scott + 5
-Don Toliver + 5
-Drake + 5
-Ken Carson + 4
-Taylor Swift + 4
-Ben Rector + 3
+The Weeknd + 71
+SZA + 33
+Travis Scott + 29
+Don Toliver + 25
+Frank Ocean + 19
+Tyler, The Creator + 18
+Drake + 14
+Justin Bieber + 13
+Katy Perry + 12
+Tory Lanez + 11
+Kendrick Lamar + 9
+Baby Keem + 8
+21 Savage + 7
+Ken Carson + 6
+Chris Brown + 6
+Taylor Swift + 5
+Future + 5
+Metro Boomin + 5
+PARTYNEXTDOOR + 4
+Majid Jordan + 4
+Ben Rector + 4
+Tommy Richman + 4
+Trevor Spitta + 4
+Zachary Moon + 4
+Kali Uchis + 4
+Kanye West + 4
+Lana Del Rey + 4
 Childish Gambino + 3
-PARTYNEXTDOOR + 3
-21 Savage + 3
-Tommy Richman + 3
-Trevor Spitta + 3
-Zachary Moon + 3
-Playboi Carti + 2
+Naughty Boy + 3
+Sam Smith + 3
+Playboi Carti + 3
+Brent Faiyaz + 3
+Dahi + 3
+Ufo361 + 3
+lucidbeatz + 3
+Trippie Redd + 3
+Yoko Gold + 3
+Tate McRae + 3
+Young Thug + 3
 Nelly Furtado + 2
 Timbaland + 2
-Lana Del Rey + 2
 Lola Young + 2
-Trippie Redd + 2
-Yoko Gold + 2
-Chris Brown + 2
 TisaKorean + 2
-Naughty Boy + 2
-Sam Smith + 2
-Brent Faiyaz + 2
-Dahi + 2
-Kali Uchis + 2
 OneRepublic + 2
-Majid Jordan + 2
-Ufo361 + 2
-lucidbeatz + 2
 Daniel Caesar + 2
-Future + 1
-Metro Boomin + 1
-Young Thug + 1
+Bootsy Collins + 2
+Vishal-Shekhar + 2
+Arijit Singh + 2
+Shilpa Rao + 2
+Kumaar + 2
+Rich Homie Quan + 2
+T.I. + 2
+Fabolous + 2
+Rick Ross + 2
+André 3000 + 2
+Game of Thrones + 2
+Daft Punk + 2
 One Direction + 1
 Bastille + 1
 Maroon 5 + 1
@@ -48,12 +62,14 @@ Christina Aguilera + 1
 Calvin Harris + 1
 Disciples + 1
 Nicki Minaj + 1
-Bootsy Collins + 1
-Tate McRae + 1
 Cage The Elephant + 1
 Lady Gaga + 1
 Bruno Mars + 1
-Vishal-Shekhar + 1
-Arijit Singh + 1
-Shilpa Rao + 1
-Kumaar + 1
+ZAYN + 1
+Sia + 1
+¥$ + 1
+Ty Dolla $ign + 1
+Kodak Black + 1
+Eminem + 1
+Odetari + 1
+Bad Bunny + 1

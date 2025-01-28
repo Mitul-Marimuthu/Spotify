@@ -1,6 +1,6 @@
 # has template methods with parameters that allow for streamlined fileIO
 import ast
-
+from datetime import datetime
 class File_Handlers:
     # writes the content of the list into the file in a way that makes it easy to extract
     #TODO: include the 'played_at list after'
@@ -42,7 +42,7 @@ class File_Handlers:
                 file.write(f"{item} + {artist_list[item]}\n") 
 
     @staticmethod
-    def read_from_file(data, album_list, artist_list, last_played, num_songs):
+    def read_from_file(data, album_list, artist_list, last_played, num_songs, start_date):
         # global data
         # global album_list
         # global artist_list
@@ -56,6 +56,9 @@ class File_Handlers:
                 data[params[0].strip()] = [params[1].strip(), int(params[2].strip()), []]
                 num_songs[0] += int(params[2].strip())
                 line = file.readline()
+
+        if len(data) == 0:
+            start_date = datetime.now().date()
         #print (num_songs)
         #file with the times of when the song was played
         with open('/Users/mitul/Desktop/spotify/data_files/time_list.txt', 'r') as file:

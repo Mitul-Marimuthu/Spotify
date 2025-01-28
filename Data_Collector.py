@@ -6,12 +6,13 @@ from urllib.parse import urlencode, urlparse, parse_qs
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from dotenv import load_dotenv
 import os
+import datetime
 #import ast
 from File_Handlers import File_Handlers
 
 
 # Spotify API credentials
-load_dotenv('.env.local')
+load_dotenv('/Users/mitul/Desktop/spotify/.env.local')
 CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
 CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
 REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
@@ -24,6 +25,7 @@ artist_list = {}
 album_list = {}
 last_played = {}
 num_songs = [0]
+start_date = '2025-01-25'
 
 #HTTP server to hadnle the redirect and capture the auth code
 class AuthorizationHandler(BaseHTTPRequestHandler):
@@ -211,7 +213,7 @@ def read_from_files():
     global album_list
     global last_played
     global num_songs
-    File_Handlers.read_from_file(data, album_list, artist_list, last_played, num_songs)
+    File_Handlers.read_from_file(data, album_list, artist_list, last_played, num_songs, start_date)
     #print(num_songs)
 
     #print(c_last_played)
