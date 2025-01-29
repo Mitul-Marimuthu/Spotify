@@ -1,36 +1,42 @@
-Self Control - Frank Ocean + Blonde , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526', 'width': 640} + 9
+Self Control - Frank Ocean + Blonde , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526', 'width': 640} + 11
+FRIED - ¥$, Kanye West, Ty Dolla $ign + VULTURES 2 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb9cedd86a3d08dc053a550d', 'width': 640} + 8
 The Party & The After Party - The Weeknd + House Of Balloons (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640} + 6
+4X4 - Travis Scott + 4X4 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27374bdfbcc73b08c535b4d6564', 'width': 640} + 6
+Too Late - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 6
+Stars Align (with Drake) - Majid Jordan, Drake + Wildest Dreams , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ecca1386fa4e6b7a947907ef', 'width': 640} + 6
+Alone Again - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 6
 Diamond Boy (DTM) - SZA + SOS Deluxe: LANA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640} + 5
-4X4 - Travis Scott + 4X4 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27374bdfbcc73b08c535b4d6564', 'width': 640} + 5
 In The Night - The Weeknd + Beauty Behind The Madness , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b', 'width': 640} + 5
+No Pole - Don Toliver + Love Sick (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f5e27c2aa0b110c2b6611577', 'width': 640} + 5
+St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar + CHROMAKOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640} + 5
+luther (with sza) - Kendrick Lamar, SZA + GNX , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640} + 5
+Missed You : Bonus Track - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 5
 M a k e I t T o T h e M o r n i n g - PARTYNEXTDOOR + PARTYNEXTDOOR 4 (P4) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27322ac75a1f50440962b7f70e6', 'width': 640} + 4
-Stars Align (with Drake) - Majid Jordan, Drake + Wildest Dreams , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ecca1386fa4e6b7a947907ef', 'width': 640} + 4
-luther (with sza) - Kendrick Lamar, SZA + GNX , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640} + 4
-Missed You - Bonus Track - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 4
 Brand New - Ben Rector + Brand New , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27368fa87944a95ad7317c00cff', 'width': 640} + 4
-No Pole - Don Toliver + Love Sick (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f5e27c2aa0b110c2b6611577', 'width': 640} + 4
 TENNESSEE - Tommy Richman, Trevor Spitta, Zachary Moon + COYOTE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273cd721da3f9b44382eae07d72', 'width': 640} + 4
 Hours In Silence - Drake, 21 Savage + Her Loss , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27302854a7060fccc1a66a4b5ad', 'width': 640} + 4
 Dancing In The Flames - The Weeknd + Dancing In The Flames , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f0e9b93cadbeb4d0227a59eb', 'width': 640} + 4
 Stargirl Interlude - The Weeknd, Lana Del Rey + Starboy , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452', 'width': 640} + 4
-Too Late - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 4
-Heartbeat - Childish Gambino + Camp , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736182cfe2e2a090d125c81dc0', 'width': 640} + 3
+Heartbeat - Childish Gambino + Camp , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736182cfe2e2a090d125c81dc0', 'width': 640} + 4
+RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + RICK OWENS (feat. Ken Carson) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640} + 4
+That Should Be Me - Justin Bieber + My World 2.0 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a', 'width': 640} + 4
+ALL THE LOVE - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 4
+Sports car - Tate McRae + Sports car , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27318a681e1e525405b2f909032', 'width': 640} + 4
+MY EX - Baby Keem + DIE FOR MY BITCH , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1', 'width': 640} + 4
+Angel Numbers / Ten Toes - Chris Brown + 11:11 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27326883cd45415d1c8b05adad1', 'width': 640} + 4
+Lost - Frank Ocean + channel ORANGE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5', 'width': 640} + 4
+GRAVITY (FEAT. TYLER, THE CREATOR) - Brent Faiyaz, Dahi, Tyler, The Creator + WASTELAND , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27369f63a842ea91ca7c522593a', 'width': 640} + 4
+All I Want For Christmas Is You - The Philly Specials, Jordan Mailata + A Philly Special Christmas Special , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273658c2550a08d95c7f23b4a57', 'width': 640} + 4
 Poison Ivy - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 3
-MY EX - Baby Keem + DIE FOR MY BITCH , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1', 'width': 640} + 3
 ‘87 Stingray - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 3
 Far - SZA + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 3
-ALL THE LOVE - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 3
 GONE, GONE / THANK YOU - Tyler, The Creator + IGOR , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57', 'width': 640} + 3
 Novacane - Frank Ocean + Novacane , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27359a428dc7ef8e0c12b0fe18a', 'width': 640} + 3
 Awkward - SZA + Ctrl (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2731882add8fd275c04e322027d', 'width': 640} + 3
 La La La - Naughty Boy, Sam Smith + La La La , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2739213b0453a98f037f2230f3e', 'width': 640} + 3
 HAS A HEART - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 3
-Angel Numbers / Ten Toes - Chris Brown + 11:11 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27326883cd45415d1c8b05adad1', 'width': 640} + 3
 One Time - Justin Bieber + My World , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737c3bb9f74a98f60bdda6c9a7', 'width': 640} + 3
-Lost - Frank Ocean + channel ORANGE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5', 'width': 640} + 3
 ss - Ken Carson + A Great Chaos (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2733b494c1b464d41ef641de442', 'width': 640} + 3
-GRAVITY (FEAT. TYLER, THE CREATOR) - Brent Faiyaz, Dahi, Tyler, The Creator + WASTELAND , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27369f63a842ea91ca7c522593a', 'width': 640} + 3
-RICK OWENS (feat. Ken Carson) - Ufo361, lucidbeatz, Ken Carson + RICK OWENS (feat. Ken Carson) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730ebe66ffa71d7331040de174', 'width': 640} + 3
 Guilty as Sin? - Taylor Swift + THE TORTURED POETS DEPARTMENT , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33', 'width': 640} + 3
 NIRVANA - Katy Perry + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 3
 Maria - Justin Bieber + Believe (Deluxe Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640} + 3
@@ -39,27 +45,28 @@ Hurts Me - Tory Lanez, Trippie Redd, Yoko Gold + Alone at Prom (Deluxe) , {'heig
 ROCKSTAR P - Baby Keem + DIE FOR MY BITCH , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1', 'width': 640} + 3
 BMF - SZA + SOS Deluxe: LANA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640} + 3
 Another Life - SZA + SOS Deluxe: LANA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640} + 3
-Sports car - Tate McRae + Sports car , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27318a681e1e525405b2f909032', 'width': 640} + 3
 Out Of Town Girl - Justin Bieber + Believe (Deluxe Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640} + 3
-Alone Again - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 3
+Secrets - OneRepublic + Waking Up , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27377a7bd558d81172446e525bb', 'width': 640} + 3
+ALL RED - Playboi Carti + ALL RED , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ca15942c726ec9c39796435e', 'width': 640} + 3
+Like Him (feat. Lola Young) - Tyler, The Creator, Lola Young + CHROMAKOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640} + 3
+Open Arms (feat. Travis Scott) - SZA, Travis Scott + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 3
+Power is Power (feat. The Weeknd & Travis Scott) - SZA, The Weeknd, Travis Scott, Game of Thrones + For The Throne (Music Inspired by the HBO Series Game of Thrones) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d4024fdf2c5056be8a08d09c', 'width': 640} + 3
+House Of Balloons / Glass Table Girls - The Weeknd + House Of Balloons (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640} + 3
+FUK SUMN - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 3
+The One That Got Away - Katy Perry + Teenage Dream , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27343219fb4e2c45a0b7df6ef87', 'width': 640} + 3
+E.T. - Katy Perry + Teenage Dream , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d20c38f295039520d688a888', 'width': 640} + 3
+Splash.Wave.Repeat (Interlude) - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 3
+scars - Baby Keem + The Melodic Blue , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2731bfa23b13d0504fb90c37b39', 'width': 640} + 3
+Digital Dash - Drake, Future + What A Time To Be Alive , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507', 'width': 640} + 3
 Promiscuous - Nelly Furtado, Timbaland + Loose , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2', 'width': 640} + 2
-Splash.Wave.Repeat (Interlude) - Tory Lanez + Alone at Prom (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734048d1ba8aa549c822504e03', 'width': 640} + 2
-Like Him (feat. Lola Young) - Tyler, The Creator, Lola Young + CHROMAKOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640} + 2
 Go Down (feat. TisaKorean) - Don Toliver, TisaKorean + Love Sick (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f5e27c2aa0b110c2b6611577', 'width': 640} + 2
 Mary's Song (Oh My My My) - Taylor Swift + Taylor Swift , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2732f8c0fd72a80a93f8c53b96c', 'width': 640} + 2
 30 For 30 (with Kendrick Lamar) - SZA, Kendrick Lamar + SOS Deluxe: LANA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737f5a318e3ff35defa8d0e4af', 'width': 640} + 2
 Noid - Tyler, The Creator + Noid , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273dc620428d6bbc305cd43c19b', 'width': 640} + 2
-That Should Be Me - Justin Bieber + My World 2.0 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a', 'width': 640} + 2
 gloria (with sza) - Kendrick Lamar, SZA + GNX , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640} + 2
-Secrets - OneRepublic + Waking Up , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27377a7bd558d81172446e525bb', 'width': 640} + 2
 Pyramids - Frank Ocean + channel ORANGE , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5', 'width': 640} + 2
-St. Chroma (feat. Daniel Caesar) - Tyler, The Creator, Daniel Caesar + CHROMAKOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273124e9249fada4ff3c3a0739c', 'width': 640} + 2
-Open Arms (feat. Travis Scott) - SZA, Travis Scott + SOS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1', 'width': 640} + 2
-ALL RED - Playboi Carti + ALL RED , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ca15942c726ec9c39796435e', 'width': 640} + 2
 She - Tyler, The Creator, Frank Ocean + Goblin , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27328ae9a159d24cb0ab2552712', 'width': 640} + 2
 After The Storm (feat. Tyler, The Creator & Bootsy Collins) - Kali Uchis, Tyler, The Creator, Bootsy Collins + Isolation , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053', 'width': 640} + 2
-scars - Baby Keem + The Melodic Blue , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2731bfa23b13d0504fb90c37b39', 'width': 640} + 2
-Digital Dash - Drake, Future + What A Time To Be Alive , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d6adfbd3f091d6f2b9af6507', 'width': 640} + 2
 Drugs You Should Try It - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 2
 GIMME GIMME (feat. 21 Savage) - Katy Perry, 21 Savage + 1432 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ddac71a12622bdc7e9d3e795', 'width': 640} + 2
 See You Again (feat. Kali Uchis) - Tyler, The Creator, Kali Uchis + Flower Boy , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3', 'width': 640} + 2
@@ -68,14 +75,18 @@ Ghungroo (From "War") - Vishal-Shekhar, Arijit Singh, Shilpa Rao, Kumaar + Ghung
 Mamacita (feat. Rich Homie Quan & Young Thug) - Travis Scott, Rich Homie Quan, Young Thug + Mamacita (feat. Rich Homie Quan & Young Thug) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a53a4cb046216d7ac049b5bf', 'width': 640} + 2
 Deuces Remix (feat. Drake, T.I., Kanye West, Fabolous, Rick Ross & André 3000) - Chris Brown, Drake, T.I., Kanye West, Fabolous, Rick Ross, André 3000 + Deuces Remix , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734d89619547a31b9e2f11df75', 'width': 640} + 2
 BOGUS - Don Toliver + Life of a DON , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ab738b25b86bf02f0346c53d', 'width': 640} + 2
-Power is Power (feat. The Weeknd & Travis Scott) - SZA, The Weeknd, Travis Scott, Game of Thrones + For The Throne (Music Inspired by the HBO Series Game of Thrones) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d4024fdf2c5056be8a08d09c', 'width': 640} + 2
 High For This - The Weeknd + House Of Balloons (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640} + 2
-House Of Balloons / Glass Table Girls - The Weeknd + House Of Balloons (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273274b406a7e18acebcf743079', 'width': 640} + 2
 After Hours - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 2
 Party Monster - The Weeknd + Starboy , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452', 'width': 640} + 2
+Love In The Sky - The Weeknd + Kiss Land , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e4860d5331509e2c9ee4de10', 'width': 640} + 2
+Trance (with Travis Scott & Young Thug) - Metro Boomin, Travis Scott, Young Thug + HEROES & VILLAINS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c4fee55d7b51479627c31f89', 'width': 640} + 2
+Flocky Flocky (feat. Travis Scott) - Don Toliver, Travis Scott + Life of a DON , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ab738b25b86bf02f0346c53d', 'width': 640} + 2
+Love Hurts (feat. Travis Scott) - Playboi Carti, Travis Scott + Die Lit , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194', 'width': 640} + 2
+Cigarette Daydreams - Cage The Elephant + Melophobia , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb1cb900d28642e668d77b12', 'width': 640} + 2
+Zombies - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 2
+STARS - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 2
 Hardest To Love - The Weeknd + After Hours (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ef017e899c0547766997d874', 'width': 640} + 1
 Timeless (with Playboi Carti) - The Weeknd, Playboi Carti + Timeless , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27394f662ef3b5677376d8a78d4', 'width': 640} + 1
-Trance (with Travis Scott & Young Thug) - Metro Boomin, Travis Scott, Young Thug + HEROES & VILLAINS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c4fee55d7b51479627c31f89', 'width': 640} + 1
 Live While We're Young - One Direction + Take Me Home (Expanded Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734e31e0d38b89b8fb239d4fbf', 'width': 640} + 1
 Pompeii - Bastille + Bad Blood , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273258225089decfb3d5c3718d3', 'width': 640} + 1
 Moves Like Jagger - Studio Recording From "The Voice" Performance - Maroon 5, Christina Aguilera + Hands All Over , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ce70cb2d7063cf869f9f1239', 'width': 640} + 1
@@ -84,13 +95,11 @@ Love Yourself - Justin Bieber + Purpose (Deluxe) , {'height': 640, 'url': 'https
 How Deep Is Your Love - Calvin Harris, Disciples + How Deep Is Your Love , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f4956c3ceefc6fa1cffc6da6', 'width': 640} + 1
 Super Bass - Nicki Minaj + Pink Friday (Complete Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273aa7d2641af0fa4c1f76fafbf', 'width': 640} + 1
 heart pt. 6 - Kendrick Lamar + GNX , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58', 'width': 640} + 1
-Cigarette Daydreams - Cage The Elephant + Melophobia , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb1cb900d28642e668d77b12', 'width': 640} + 1
 Die With A Smile - Lady Gaga, Bruno Mars + Die With A Smile , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27382ea2e9e1858aa012c57cd45', 'width': 640} + 1
 She Don't Like The Lights - Justin Bieber + Believe (Deluxe Edition) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736c20c4638a558132ba95bc39', 'width': 640} + 1
 Dusk Till Dawn (feat. Sia) - Radio Edit - ZAYN, Sia + Icarus Falls , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27373fb56438ea764d64b2fdac7', 'width': 640} + 1
-Wu-Tang Forever - Drake + Nothing Was The Same , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d', 'width': 640} + 1
+Wu:Tang Forever - Drake + Nothing Was The Same , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d', 'width': 640} + 1
 Deuces Remix (feat. Drake & Kanye West) - Chris Brown, Drake, Kanye West + Deuces Remix , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734d89619547a31b9e2f11df75', 'width': 640} + 1
-FUK SUMN - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 1
 BROTHER STONE (FEAT. KODAK BLACK) - Don Toliver, Kodak Black + HARDSTONE PSYCHO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c800e1a4a237cf8f085183c5', 'width': 640} + 1
 Can't Feel My Legs - Don Toliver + Heaven Or Hell , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27345190a074bef3e8ce868b60c', 'width': 640} + 1
 LOVE IS A DRUG - Don Toliver + HARDSTONE PSYCHO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27387b5126aa892756d9a50faa4', 'width': 640} + 1
@@ -111,14 +120,12 @@ K-POP (feat. Bad Bunny & The Weeknd) - Travis Scott, Bad Bunny, The Weeknd + UTO
 BACC (Bonus) - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 1
 Backyard - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 1
 ICE AGE (FEAT. TRAVIS SCOTT) - Don Toliver, Travis Scott + HARDSTONE PSYCHO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c800e1a4a237cf8f085183c5', 'width': 640} + 1
-Flocky Flocky (feat. Travis Scott) - Don Toliver, Travis Scott + Life of a DON , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ab738b25b86bf02f0346c53d', 'width': 640} + 1
 Impossible - Travis Scott + Rodeo , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736cfd9a7353f98f5165ea6160', 'width': 640} + 1
 CAN'T SAY - Travis Scott + ASTROWORLD , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3', 'width': 640} + 1
 INSIDE (FEAT. TRAVIS SCOTT) - Don Toliver, Travis Scott + HARDSTONE PSYCHO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273c800e1a4a237cf8f085183c5', 'width': 640} + 1
 Embarrassed (feat. Travis Scott) - Don Toliver, Travis Scott + Love Sick (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f5e27c2aa0b110c2b6611577', 'width': 640} + 1
 HIGHEST IN THE ROOM - Travis Scott + HIGHEST IN THE ROOM , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e42b5fea4ac4c3d6328b622b', 'width': 640} + 1
 guidance - Travis Scott + Birds In The Trap Sing McKnight , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce', 'width': 640} + 1
-Zombies - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 1
 D.D. - The Weeknd + Echoes Of Silence (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b27336fb79728dbb379579cef97e', 'width': 640} + 1
 Heaven Or Las Vegas - The Weeknd + Thursday (Original) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e01c2631218e2de27765b7d5', 'width': 640} + 1
 Shameless - The Weeknd + Beauty Behind The Madness , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b', 'width': 640} + 1
@@ -133,7 +140,6 @@ Often - The Weeknd + Beauty Behind The Madness , {'height': 640, 'url': 'https:/
 Out of Time - The Weeknd + Dawn FM (Alternate World) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273baae906c39533f95acb87d47', 'width': 640} + 1
 Sacrifice - The Weeknd + Dawn FM (Alternate World) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273baae906c39533f95acb87d47', 'width': 640} + 1
 I Feel It Coming - The Weeknd, Daft Punk + Starboy , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452', 'width': 640} + 1
-Love In The Sky - The Weeknd + Kiss Land , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e4860d5331509e2c9ee4de10', 'width': 640} + 1
 Heartless - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 1
 Adaptation - The Weeknd + Kiss Land , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e4860d5331509e2c9ee4de10', 'width': 640} + 1
 Pretty - The Weeknd + Kiss Land , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273e4860d5331509e2c9ee4de10', 'width': 640} + 1
@@ -145,3 +151,28 @@ Can't Feel My Face - The Weeknd + Beauty Behind The Madness , {'height': 640, 'u
 Kiss Land - The Weeknd + Kiss Land , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730cc6c8a864d2d16a2bc507d4', 'width': 640} + 1
 Angel - The Weeknd + Beauty Behind The Madness , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2737fcead687e99583072cc217b', 'width': 640} + 1
 Escape From LA - The Weeknd + After Hours , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36', 'width': 640} + 1
+Is There Someone Else? - The Weeknd + Dawn FM (Alternate World) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273baae906c39533f95acb87d47', 'width': 640} + 1
+MAFIA - Travis Scott + ESCAPE PLAN / MAFIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273eba68473429f9f4eaf1943d0', 'width': 640} + 1
+You (feat. Travis Scott) - Don Toliver, Travis Scott + Life of a DON , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273ab738b25b86bf02f0346c53d', 'width': 640} + 1
+5% TINT - Travis Scott + ASTROWORLD , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3', 'width': 640} + 1
+MELTDOWN (feat. Drake) - Travis Scott, Drake + UTOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273881d8d8378cd01099babcd44', 'width': 640} + 1
+Antidote - Travis Scott + Rodeo , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2736cfd9a7353f98f5165ea6160', 'width': 640} + 1
+Dreamcatcher (feat. Swae Lee & Travis Scott) - Metro Boomin, Swae Lee, Travis Scott + NOT ALL HEROES WEAR CAPES (Deluxe) , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2732887f8c05b5a9f1cb105be29', 'width': 640} + 1
+WHO? WHAT! - Travis Scott + ASTROWORLD , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3', 'width': 640} + 1
+Basement Freestyle - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 1
+Cinderella - Future, Metro Boomin, Travis Scott + WE DON'T TRUST YOU , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273a46b07c291e6dfdee13b3ee8', 'width': 640} + 1
+HYAENA - Travis Scott + UTOPIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273881d8d8378cd01099babcd44', 'width': 640} + 1
+NO BYSTANDERS - Travis Scott + ASTROWORLD , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3', 'width': 640} + 1
+wonderful - Travis Scott + Birds In The Trap Sing McKnight , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273f54b99bf27cda88f4a7403ce', 'width': 640} + 1
+Days Before Rodeo: The Prayer - Travis Scott + DAYS BEFORE RODEO , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b2730fc93fe41791c5aa51ae9645', 'width': 640} + 1
+OUT WEST (feat. Young Thug) - JACKBOYS, Travis Scott, Young Thug + JACKBOYS , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273dfc2f59568272de50a257f2f', 'width': 640} + 1
+ESCAPE PLAN - Travis Scott + ESCAPE PLAN / MAFIA , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273eba68473429f9f4eaf1943d0', 'width': 640} + 1
+STOP TRYING TO BE GOD - Travis Scott + ASTROWORLD , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3', 'width': 640} + 1
+CARNIVAL - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 1
+KEYS TO MY LIFE - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 1
+BURN - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 1
+KING - ¥$, Kanye West, Ty Dolla $ign + VULTURES 1 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273b2e4a1ea8a6708fc23f26e4a', 'width': 640} + 1
+BOMB - ¥$, Kanye West, Ty Dolla $ign + VULTURES 2 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb9cedd86a3d08dc053a550d', 'width': 640} + 1
+FIELD TRIP - ¥$, Kanye West, Ty Dolla $ign + VULTURES 2 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb9cedd86a3d08dc053a550d', 'width': 640} + 1
+SLIDE - ¥$, Kanye West, Ty Dolla $ign + VULTURES 2 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb9cedd86a3d08dc053a550d', 'width': 640} + 1
+SKY CITY - ¥$, Kanye West, Ty Dolla $ign + VULTURES 2 , {'height': 640, 'url': 'https://i.scdn.co/image/ab67616d0000b273fb9cedd86a3d08dc053a550d', 'width': 640} + 1
