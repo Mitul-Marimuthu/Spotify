@@ -7,6 +7,8 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from dotenv import load_dotenv
 import os
 import datetime
+import pandas as pd
+import sqlite3
 #import ast
 from File_Handlers import File_Handlers
 
@@ -20,11 +22,23 @@ REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
 #global variable to store the authorization code
 auth_code = None
 #globabl variable to store the list of songs
-data = {}
-artist_list = {}
-album_list = {}
-last_played = {}
-num_songs = [0]
+#main_list
+# data = {}
+# artist_list = {}
+# album_list = {}
+# last_played = {}
+# num_songs = [0]
+
+#global dbs
+conn = sqlite3.connect("/Users/mitul/Desktop/spotify/data_files/spotify.db")
+# main_list = pd.read_sql("SELECT * FROM main", conn)
+# artists = pd.read_sql("SELECT * FROM artists", conn)
+# album = pd.read_sql("SELECT * FROM albums", conn)
+# times = pd.read_sql("SELECT * FROM times", conn)
+last = pd.read_sql("SELECT * FROM last", conn)
+conn.close()
+
+
 start_date = '2025-01-25'
 
 #HTTP server to hadnle the redirect and capture the auth code
@@ -130,10 +144,10 @@ def get_recently_played_tracks_normal(access_token):
     if response.status_code == 200:
         save_new_data(tracks)
     else:
-        #print("Failed to get recently played tracks:", response.json())
+        print("Failed to get recently played tracks:", response.json())
         return None
-    last_played.clear()
-    last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
+    #last_played.clear()
+    #last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
 
 def save_tracks(tracks):
     with open('/Users/mitul/Desktop/spotify/test_files/recently_played_tracks.json', 'w') as json_file:
@@ -144,38 +158,87 @@ def save_tracks(tracks):
 # check if 'played_at' is in the list
 # makes note of the most recently played song and its timestamp for later data collection
 def save_new_data(tracks):
-    global data
-    global last_played
-    #print(len(last_played))
-    if len(last_played) == 0:
-        last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
+    last_p = [tracks['items'][0]['track']['name'], tracks['items'][0]['played_at']]
+    l = pd.DataFrame(last_p)
+    conn = sqlite3.connect("/Users/mitul/Desktop/spotify/data_files/spotify.db")
+    l.to_sql("last", conn, index=True, if_exists="replace")
+    cursor = conn.cursor()
     for item in tracks['items']:
         track = item['track']
-        #print(track)    
-        # list[f"{track['name']}, {", ".join(artist['name'] for artist in track['artists'])}"] =  (track['album']['name'], track['album']['images'][0], 0)
-        # subset = (track['name'], ", ".join(artist['name'] for artist in track['artists']), track['album']['name'], track['album']['images'][0], 0)
-
-        #if the "song - artist" key exists in the lsit, update its listen counter
-        #otherwise add the new song into the list
-        key = f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"
-        if key in data:
-            #print(list[key])
-            if item['played_at'] == list(last_played.items())[0][1]:
-                #done = True
+        artist = ", ".join(art['name'] for art in track['artists'])
+        name = track['name']
+        cursor.execute('SELECT EXISTS(SELECT 1 FROM main WHERE "Song Name" = ? and "Artists" = ?)', (name, artist))
+        exists = cursor.fetchone()[0]
+        if exists:
+            temp = cursor.execute('SELECT "Listen History" FROM times WHERE "Song" = ? AND "Artist" =? ', (name, artist))
+            result = cursor.fetchone()
+            times = json.loads(result[1]) 
+            if item['played_at'] in times:
                 break
             else:
-                data[key][1] += 1
-                data[key][2].append(item['played_at'])
-                update_artist_counter(track)
-                update_album_counter(track)
-            # else:
-            #     done = True
-            #     break
-        else:
-            data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
-            update_artist_counter(track)
-            update_album_counter(track)
-    #print('c')
+                #FREQUENCY UPDATE
+                times.append(item['played_at'])
+                temp = cursor.execute('SELECT "Times Played" FROM main WHERE "Song" = ? AND "Artist" = ?', (name, artist))
+                num_played = cursor.fetchone()
+                cursor.execute('UPDATE main SET "Times Played" = ? WHERE "Song Name" = ? AND "Artist" = ?', (num_played[4]+1, name, artist))
+                #num_art = []
+                #ARTIST UPDATE
+                art = artist.split(",")
+                for a in art:
+                    temp = cursor.execute('SELECT "Songs Listened To" FROM artists WHERE "Artist" = ?', a)
+                    num_a = cursor.fetchone()
+                    #n_a = num_a(1)
+                    cursor.execute('UPDATE artists SET "Songs Listened To" = ? WHERE "Artist" = ?', (num_a[1]+1, a))
+                
+                #temp = cursor.execute("SELECT Songs Listened To FROM artists WHERE Artist = ?")
+                #num_art = 1
+                #ALBUM UPDATE
+                alb = track['album']['name']
+                alb_art = ", ".join(a['name'] for a in track['album']['artists'])
+                temp = cursor.execute('SELECT "Number of Songs" FROM albums WHERE "Album" = ? AND "Artist" = ?', (alb, alb_art))
+                num_alb = cursor.fetchone()
+                cursor.execute('UPDATE albums SET "Number of Songs" = ? WHERE "Album" = ? AND "Artist" = ?', (num_alb[2]+1, alb, alb_art))
+
+                #TIMES UPDATE
+                cursor.execute('UPDATE times SET "Listen History" = ? WHERE "Song" = ? AND "Artist" = ?', (json.dumps(times), name, artist))
+
+                conn.commit()
+    conn.close()
+
+
+    
+    # global data
+    # global last_played
+    # #print(len(last_played))
+    # if len(last_played) == 0:
+    #     last_played[tracks['items'][0]['track']['name']] = tracks['items'][0]['played_at']
+    # for item in tracks['items']:
+    #     track = item['track']
+    #     #print(track)    
+    #     # list[f"{track['name']}, {", ".join(artist['name'] for artist in track['artists'])}"] =  (track['album']['name'], track['album']['images'][0], 0)
+    #     # subset = (track['name'], ", ".join(artist['name'] for artist in track['artists']), track['album']['name'], track['album']['images'][0], 0)
+
+    #     #if the "song - artist" key exists in the lsit, update its listen counter
+    #     #otherwise add the new song into the list
+    #     key = f"{track['name']} - {', '.join(artist['name'] for artist in track['artists'])}"
+    #     if key in data:
+    #         #print(list[key])
+    #         if item['played_at'] == list(last_played.items())[0][1]:
+    #             #done = True
+    #             break
+    #         else:
+    #             data[key][1] += 1
+    #             data[key][2].append(item['played_at'])
+    #             update_artist_counter(track)
+    #             update_album_counter(track)
+    #         # else:
+    #         #     done = True
+    #         #     break
+    #     else:
+    #         data[key] =  [f"{track['album']['name']} , {track['album']['images'][0]}", 1, [item['played_at']]]
+    #         update_artist_counter(track)
+    #         update_album_counter(track)
+    # #print('c')
 
 
 #updates the artist counter
@@ -198,35 +261,39 @@ def update_album_counter(track):
     else:
         album_list[name] = [artists, 1]
 
+#all from beta (txt) version
 #sorts all of the dictionaries accordingly
-def sorts():
-    global data
-    global album_list
-    global artist_list
-    data = dict(sorted(data.items(), key=lambda item: item[1][1], reverse=True))
-    album_list = dict(sorted(album_list.items(), key=lambda item: item[1][1], reverse=True))
-    artist_list = dict(sorted(artist_list.items(), key=lambda item: item[1], reverse=True))
+# def sorts():
+#     global data
+#     global album_list
+#     global artist_list
+#     data = dict(sorted(data.items(), key=lambda item: item[1][1], reverse=True))
+#     album_list = dict(sorted(album_list.items(), key=lambda item: item[1][1], reverse=True))
+#     artist_list = dict(sorted(artist_list.items(), key=lambda item: item[1], reverse=True))
 
-def read_from_files():
-    global data
-    global artist_list
-    global album_list
-    global last_played
-    global num_songs
-    File_Handlers.read_from_file(data, album_list, artist_list, last_played, num_songs, start_date)
+# def read_from_files():
+#     global data
+#     global artist_list
+#     global album_list
+#     global last_played
+#     global num_songs
+#     File_Handlers.read_from_file(data, album_list, artist_list, last_played, num_songs, start_date)
     #print(num_songs)
 
     #print(c_last_played)
 
-def write_to_files():
-    global data
-    global artist_list
-    global album_list
-    global last_played
-    File_Handlers.write_to_file(data, album_list, artist_list, last_played)
+# def write_to_files():
+#     global data
+#     global artist_list
+#     global album_list
+#     global last_played
+#     File_Handlers.write_to_file(data, album_list, artist_list, last_played)
+
+def check():
+    pass
 
 def collect_data():
-    read_from_files()
+    #read_from_files()
     auth_code = get_authorization_code()
     if auth_code:
         access_token = get_access_token(auth_code)
@@ -234,8 +301,8 @@ def collect_data():
             get_recently_played_tracks_normal(access_token)
             # if tracks:
             #     save_new_data(tracks)
-            sorts()
-            write_to_files()
+            #sorts()
+            #write_to_files()
 
 if __name__ == "__main__":
     collect_data()

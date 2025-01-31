@@ -7,7 +7,7 @@ from Data_Collector import data, artist_list, album_list, last_played
 
 #changes format of the strings
 def change_itemizer():
-    File_Handlers.read_from_file(data, {}, {}, {}, [0], '')
+    File_Handlers.read_from_file(data, album_list, artist_list, {}, [0], '')
     #print(data)
     new_names = {}
     for item in data:
@@ -23,6 +23,8 @@ def change_itemizer():
             data[new] = data.pop(old)
 
     File_Handlers.write_to_file(data, album_list, artist_list, last_played)
+
+
 
 if __name__ == "__main__":
     change_itemizer()
